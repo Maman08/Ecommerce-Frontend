@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./custom/components/Navbar/Navbar.jsx"
+import HomePage from './custom/pages/HomePage/HomePage.jsx';
+import Footer from './custom/components/Footer/Footer.jsx';
+import Product from './custom/components/Product/Product.jsx';
+import ProductDetails from './custom/components/ProductDetails/ProductDetails.jsx';
+import Cart from './custom/components/Cart/Cart.jsx';
+import Checkout from './custom/components/Checkout/Checkout.jsx';
+import Order from './custom/components/Order/Order.jsx';
+import OrderDetail from './custom/components/Order/OrderDetail.jsx';
+import { Route,Routes } from 'react-router-dom';
+import CustomerRoutes from './Routers/CustomerRoutes.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+<div>
+
+<Routes>
+  <Route path='/*' element={<CustomerRoutes/>}></Route>
+</Routes>
+
+
+</div>
+
+
   );
 }
 
