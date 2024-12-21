@@ -5,7 +5,7 @@ This is a React-based E-commerce frontend project, designed to resemble Flipkart
 ## Features
 
 - **Responsive Design**: Works seamlessly across desktops, tablets, and mobile devices.
-- **Home Page**: Showcases product categories, banners, and featured products.
+- **Home Page**: Showcases product categories, banners, and featured products..
 - **Product Listing**: Displays a variety of products with filtering and sorting options.
 - **Product Details**: Detailed product information with pricing and specifications.
 - **Shopping Cart**: View selected items, adjust quantities, and proceed to checkout.
